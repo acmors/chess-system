@@ -1,7 +1,10 @@
 package application;
 
+import boardgame.Position;
+
 public class Program {
-	public void main(String arg[]) {
-		System.out.println("Bichoca do cranco!");
+	public static void main(String arg[]) {
+		Position p = new Position(3, 5);
+		System.out.println(p);
 	}
 }
